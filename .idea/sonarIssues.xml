@@ -38,6 +38,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/android/daggerdemo/di/ActivityBuilderModule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/android/daggerdemo/di/ActivityBuildersModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/example/android/daggerdemo/di/AppComponent.kt">
           <value>
             <set />
