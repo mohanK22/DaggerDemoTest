@@ -9,16 +9,20 @@ import com.bumptech.glide.request.RequestOptions
 import com.example.android.daggerdemo.R
 import dagger.Module
 import dagger.Provides
+import javax.inject.Singleton
 
 @Module
 class AppModule {
 
     companion object {
+
+        @Singleton
         @Provides
         fun someString(): String {
             return "Some String Test"
         }
 
+        @Singleton
         @Provides
         fun provideRequestOptions(): RequestOptions {
             return RequestOptions
@@ -26,6 +30,7 @@ class AppModule {
                 .error(R.drawable.white_background)
         }
 
+        @Singleton
         @Provides
         fun provideGlideInstance(
             application: Application,
@@ -36,6 +41,7 @@ class AppModule {
                 .setDefaultRequestOptions(requestOptions)
         }
 
+        @Singleton
         @Provides
         fun provideAppLogo(application: Application): Drawable {
             return ContextCompat.getDrawable(application, R.drawable.dagger_logo)!!
