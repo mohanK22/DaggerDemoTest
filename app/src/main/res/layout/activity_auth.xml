@@ -8,8 +8,8 @@
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/imgLoginLogo"
-        android:layout_width="@dimen/img_square_size"
-        android:layout_height="@dimen/img_square_size"
+        android:layout_width="@dimen/img_width_size"
+        android:layout_height="@dimen/img_height_size"
         android:layout_marginTop="@dimen/large_dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

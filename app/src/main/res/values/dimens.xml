@@ -2,5 +2,6 @@
 <resources>
     <dimen name="large_dp">16dp</dimen>
     <dimen name="large_medium">24dp</dimen>
-    <dimen name="img_square_size">150dp</dimen>
+    <dimen name="img_height_size">160dp</dimen>
+    <dimen name="img_width_size">240dp</dimen>
 </resources>
